@@ -1,4 +1,6 @@
 import TodoItem from "./TodoItem";
+import { ReactPropTypes } from "react";
+
 const Todos = ({ todos, toggleCompleted, deleteTodo }) => {
   return (
     <div style={styles.container}>
